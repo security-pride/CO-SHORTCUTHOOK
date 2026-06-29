@@ -29,4 +29,7 @@ CO-SHORTCUTHOOK supports comprehensive analyses of shortcut dependence, robustne
 pip install -r requirements.txt
 ```
 
+## Datasets
+
+All evaluation datasets are included in this repository and can be found in the `humaneval/` directory.
 
