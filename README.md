@@ -33,3 +33,42 @@ pip install -r requirements.txt
 
 All evaluation datasets are included in this repository and can be found in the `humaneval/` directory.
 
+## Quick Start
+
+The evaluation pipeline consists of four sequential steps.
+
+### Step 1. Generate Code Completions
+
+Generate function implementations for the benchmark tasks using the target Code LLM.
+
+```bash
+python3 code_complete.py
+```
+
+### Step 2. Extract Generated Functions
+
+Extract the generated function bodies from the model outputs.
+
+```bash
+python3 extract_generated_function.py
+```
+
+### Step 3. Evaluate Functional Correctness
+
+Evaluate whether the generated functions pass the corresponding test cases.
+
+```bash
+python3 code_correct_evaluation.py
+```
+
+### Step 4. Analyze Shortcut Reliance
+
+Measure shortcut reliance and compute shortcut-aware evaluation metrics.
+
+```bash
+python3 shortcut_analysis.py
+```
+
+After completing these four steps, CO-SHORTCUTHOOK reports the functional correctness and shortcut reliance of the evaluated Code LLM.
+
+
