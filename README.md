@@ -15,3 +15,18 @@ Based on this taxonomy, CO-SHORTCUTHOOK evaluates shortcut reliance through **se
 
 CO-SHORTCUTHOOK supports comprehensive analyses of shortcut dependence, robustness, and shortcut transfer from pretraining to downstream fine-tuning, providing practical tools for understanding and improving the reliability of Code LLMs.
 
+
+## Installation
+
+### Requirements
+
+* Python **3.12**
+* PyTorch **2.6**
+
+### Install Dependencies
+
+```
+pip install -r requirements.txt
+```
+
+
