@@ -75,7 +75,7 @@ After completing these four steps, CO-SHORTCUTHOOK reports the functional correc
 
 ## Vulnerability Detection
 
-The vulnerability detection experiments are built upon the implementation provided by **BLoB**[https://github.com/Wang-ML-Lab/bayesian-peft].
+The vulnerability detection experiments are built upon the implementation provided by [**BLoB**](https://github.com/Wang-ML-Lab/bayesian-peft).
 
 The evaluation dataset is available in the `defect-detection-testset/` directory.
 
