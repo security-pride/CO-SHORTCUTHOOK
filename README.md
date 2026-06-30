@@ -72,3 +72,25 @@ python3 shortcut_analysis.py
 After completing these four steps, CO-SHORTCUTHOOK reports the functional correctness and shortcut reliance of the evaluated Code LLM.
 
 
+
+## Vulnerability Detection
+
+The vulnerability detection experiments are built upon the implementation provided by **BLoB**.
+
+**Original repository:** https://github.com/Wang-ML-Lab/bayesian-peft
+
+The evaluation dataset is available in the `defect-detection-testset/` directory.
+
+The evaluation pipeline consists of the following steps:
+
+
+### Analyze Shortcut Reliance
+
+Evaluate shortcut dependence using the generated predictions.
+
+```bash
+python3 VD_classifier_analysis.py
+```
+
+
+
