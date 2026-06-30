@@ -20,7 +20,6 @@ def write_to_jsonl(data, file_path):
             line = json.dumps(item, ensure_ascii=False)
             f.write(line + '\n')
 
-
 def read_from_jsonl(file_path):
     data = []
     with open(file_path, 'r', encoding='utf-8') as f:
