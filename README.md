@@ -79,8 +79,6 @@ The vulnerability detection experiments are built upon the implementation provid
 
 The evaluation dataset is available in the `defect-detection-testset/` directory.
 
-The evaluation pipeline consists of the following steps:
-
 
 ### Analyze Shortcut Reliance
 
